@@ -1,0 +1,29 @@
+.star-rating-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .star-tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+  .star-rating-container:hover .star-tooltip {
+    visibility: visible;
+  }
+  
+  .star-icons {
+    display: flex;
+    align-items: center;
+  }
+  

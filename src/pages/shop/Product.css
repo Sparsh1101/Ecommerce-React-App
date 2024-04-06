@@ -1,0 +1,28 @@
+.discount {
+    font-size: 12px;
+}
+
+.tags {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.discount-tag {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.category-tag {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: rgb(250, 235, 212);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    height: 250px !important;
+}

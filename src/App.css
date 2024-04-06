@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.home {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+.conDiv {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.foot {
+  margin-top: auto;
 }
