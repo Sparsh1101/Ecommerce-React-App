@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Navbar.css';
 import { ShoppingCart } from 'phosphor-react';
 import { ShopContext } from '../../context/shop-context';
 import logo from './logo.png';

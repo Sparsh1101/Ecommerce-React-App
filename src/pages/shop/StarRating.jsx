@@ -7,21 +7,18 @@ function StarRating({ rating }) {
   const remainder = rating - filledStars;
   const starElements = [];
 
-  // Create filled stars
   for (let i = 0; i < filledStars; i++) {
     starElements.push(
       <Star key={i} weight="fill" color='orange' />
     );
   }
 
-  // Add half star if necessary
   if (remainder >= 0.5) {
     starElements.push(
       <StarHalf key="half" weight="fill" color='orange' />
     );
   }
 
-  // Add empty stars to fill up to 5 stars
   while (starElements.length < 5) {
     starElements.push(
       <Star key={starElements.length} weight="thin" color='orange' />
